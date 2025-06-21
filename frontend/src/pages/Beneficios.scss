@@ -1,0 +1,25 @@
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 1;
+    margin-bottom: 2rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beneficio-card {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.beneficio-card:hover {
+    transform: scale(1.01) translateY(-2px);
+    transition: .3s;
+}
+
+@media (max-width: 800px) {
+    .search-box {
+        width: 100%;
+    }
+}

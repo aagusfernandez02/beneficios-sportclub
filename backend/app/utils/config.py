@@ -1,0 +1,1 @@
+API_URL_BASE = 'https://api-beneficios.prod.sportclub.com.ar/api/'
